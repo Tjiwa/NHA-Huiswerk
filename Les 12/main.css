@@ -1,0 +1,91 @@
+header{
+    background-color: #FAEBD7;
+    width: 80%;
+    height: 200px;
+}
+
+footer{
+    background-color: #AFABA7;
+    width: 80%;
+    height: 200px;
+}
+
+table{
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+td{
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+}
+
+#A1{
+    background-color: #111111;
+    color: #ffffff;
+}
+#A2{
+    background-color: #222222;
+    background-image: url("images/bg1.png");
+}
+#A3{
+    background-color: #333333;
+    color: #ff55ff;
+}
+#A4{
+    background-color: #444444;
+    background-image: url(images/bg2.png);
+}
+
+#B1{
+    background-color: #11aaaa;
+    color: #ffff11;
+}
+#B2{
+    background-color: #11bbbb;
+    background-image: url(images/bg3.png);
+}
+#B3{
+    background-color: #11cccc;
+    color: #bb4444;
+}
+#B4{
+    background-color: #11dddd;
+    background-image: url(images/bg4.png);
+}
+
+#C1{
+    background-color: #aa11aa;
+    color: #11ff11;
+}
+#C2{
+    background-color: #bb11bb;
+    background-image: url(images/bg5.png);
+}
+#C3{
+    background-color: #cc11cc;
+    color: #0000cc;
+}
+#C4{
+    background-color: #dd11dd;
+    background-image: url(images/bg6.png);
+}
+
+#D1{
+    background-color: #aaaa11;
+    color: #ffffaa;
+}
+#D2{
+    background-color: #bbbb11;
+    background-image: url(images/bg7.png);
+}
+#D3{
+    background-color: #cccc11;
+    color: #ff1111;
+}
+#D4{
+    background-color: #dddd11;
+    background-image: url(images/bg8.png);
+}
