@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Mijn webpagina</title>
+<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#uppercase").click(function() {
+            $("p").text($("p").text().toUpperCase())
+        });
+        $("#lowercase").click(function() {
+            $("p").text($("p").text().toLowerCase())
+        });
+    });
+</script>
+</head>
+<body>
+    <p>
+        JQuery is een vrije JavaScript-library voor dynamische en interactieve websites, onder andere voor het bewerken van het DOM en CSS en interactie met de webserver. De ontwikkeling van jQuery is begonnen door de Amerikaan John Resig.
+    </p>
+<form>
+    <input id="uppercase" name="uppercase" type="button"
+    value="Maak alles uppercase">
+    <input id="lowercase" name="lowercase" type="button"
+    value="Maak alles lowercase">
+</form>
+</body>
+</html>
